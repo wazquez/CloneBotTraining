@@ -1,6 +1,6 @@
 
 module.exports = function(controller) {
-    controller.hears(["add", "añadir", "afegir"], "direct_message,direct_mention", function(
+    controller.hears(["add"], "direct_message,direct_mention", function(
       bot,
       message
     ) {

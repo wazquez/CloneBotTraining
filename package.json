@@ -2,9 +2,9 @@
   "name": "botkit-ciscospark-samples",
   "version": "0.1.0",
   "description": "Cisco Spark Bots built with the Botkit framework",
-  "main": "helloworld.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
   "keywords": [
     "ciscospark",
@@ -19,6 +19,8 @@
     "ciscospark-websocket-events": "^1.1.0",
     "debug": "^2.3.2",
     "node-emoji": "^1.5.1",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "node-ciscospark": "^0.9.11",
+    "async":"^2.6.0"
   }
 }
